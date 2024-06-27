@@ -123,11 +123,11 @@
 									</g>
 								</svg>
 							</span>
-							<span class="app-brand-text demo text-body fw-bold">CycleSense 2.5</span>
+							<span class="app-brand-text demo text-body fw-bold">Cycledoc</span>
 						</a>
 					</div>
 					<!-- /Logo -->
-					<h4 class="mb-2">Selamat Datang Di Sistem Informasi Kualitas Udara 👋</h4>
+					<h4 class="mb-2">Selamat datang di Heart Rate and PM 2.5 Analyst Sistem for Cyclist 👋</h4>
 					<p class="mb-4">silahkan masuk kehalaman user</p>
 					<?= $this->session->flashdata('message'); ?>
 					<form id="formAuthentication" class="mb-3" action="" method="POST">

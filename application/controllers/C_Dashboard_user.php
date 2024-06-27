@@ -17,9 +17,9 @@ class C_Dashboard_user extends CI_Controller
 	public function index()
 	{
 		$data['judul'] = "Halaman Dashboard";
-		// $this->load->view('pages/layout/header', $data);
+		$this->load->view('pages/layout/header', $data);
 		$this->load->view('pages/dashboard/dashboard_user', $data);
-		// $this->load->view('pages/layout/footer', $data);
+		$this->load->view('pages/layout/footer', $data);
 	}
 	public function coba()
 	{

@@ -14,7 +14,12 @@ class Nasabah_model extends CI_Model
 		$this->db->from($this->table);
 		$query = $this->db->get();
 		$this->db->order_by('date_create', 'desc');
-		return $query->result_array();
+		$result = $query->result_array();
+		if (empty($result)) {
+			return [];
+		}
+
+		return $result;
 	}
 	public function tampil($NIP)
 	{

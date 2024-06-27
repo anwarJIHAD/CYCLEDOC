@@ -8,7 +8,7 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-	<title>CycleSense -Tracking Keadaan Udara Komunitas Sepeda</title>
+	<title>CycleDoc -HEART RATE AND PM2.5 ANALYST SYSTEM FOR CYCLIST </title>
 
 	<meta name="description" content="" />
 
@@ -112,7 +112,7 @@
 									</g>
 								</svg>
 							</span>
-							<span class="app-brand-text demo menu-text fw-bold">CycleSense 2.5</span>
+							<span class="app-brand-text demo menu-text fw-bold">CycleDoc</span>
 						</a>
 
 						<a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-xl-none">
@@ -191,11 +191,11 @@
 									<div class="d-flex align-items-end row">
 										<div class="col-sm-7">
 											<div class="card-body">
-												<h5 class="card-title text-primary">Selamat Datang 🎉</h5>
-												<p class="mb-4">
+												<h5 class="card-title text-primary">Selamat Datang 🎉 Di Landing Page</h5>
+												<!-- <p class="mb-4">
 													Sistem Informasi Keadaan Udara <span class="fw-medium">72%</span>
 												
-												</p>
+												</p> -->
 
 											</div>
 										</div>
@@ -211,19 +211,17 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-12">
 								<div class="card mb-4">
 									<h5 class="card-header">Keadaan Udara</h5>
 									<div class="card-body">
 										<div class="leaflet-map" id="map"></div>
-
-										<!-- <div class="" id="mapdashboard"></div> -->
-
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
+<!-- 						
 						<div class="row">
 							<div class="col-md-12 col-lg-8 mb-4">
 								<div class="card">
@@ -256,7 +254,6 @@
 										</div>
 									</div>
 								</div>
-								<!--/ Total Income -->
 							</div>
 							<div class="col-xl-4 col-lg-4 col-12 mb-4">
 								<div class="card">
@@ -309,7 +306,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 
 					</div>

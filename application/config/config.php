@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/tracking_pengendara/';
+$config['base_url'] = 'http://localhost/cycledoc/';
 
 /*
 |--------------------------------------------------------------------------
@@ -116,7 +116,7 @@ $config['enable_hooks'] = FALSE;
 | https://codeigniter.com/userguide3/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'SDA_';
 
 /*
 |--------------------------------------------------------------------------

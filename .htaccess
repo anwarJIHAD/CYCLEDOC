@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /tracking_pengendara/
+    RewriteBase /cycledoc/
 
     # Redirect Trailing Slashes...
     RewriteCond %{REQUEST_FILENAME} !-d

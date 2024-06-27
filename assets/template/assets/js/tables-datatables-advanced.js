@@ -149,7 +149,7 @@ $(function () {
   if (dt_adv_filter_table.length) {
     var dt_adv_filter = dt_adv_filter_table.DataTable({
       dom: "<'row'<'col-sm-12'tr>><'row'<'col-sm-12 col-md-6'i><'col-sm-12 col-md-6 dataTables_pager'p>>",
-      ajax: assetsPath + 'json/table-datatable.json',
+      ajax: 'application/controllers/' + 'C_Unit/get',
       columns: [
         { data: '' },
         { data: 'full_name' },
@@ -213,21 +213,14 @@ $(function () {
 
   // Responsive Table
   // --------------------------------------------------------------------
-
+	
   if (dt_responsive_table.length) {
     var dt_responsive = dt_responsive_table.DataTable({
-      ajax: assetsPath + 'json/table-datatable.json',
+      ajax: 'application/controllers/' + 'C_Unit/get',
       columns: [
         { data: '' },
-        { data: 'full_name' },
-        { data: 'email' },
-        { data: 'post' },
-        { data: 'city' },
-        { data: 'start_date' },
-        { data: 'salary' },
-        { data: 'age' },
-        { data: 'experience' },
-        { data: 'status' }
+        { data: 'nama_komunitas' },
+        
       ],
       columnDefs: [
         {
